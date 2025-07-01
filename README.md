@@ -24,4 +24,34 @@ A powerful **Multi-Modal Memory Chatbot** that can process text and images, main
 ---
 
 ## 📂 Project Structure
+multi_modal_memory_chatbot/
+│
+├── app.py
+├── requirements.txt
+├── Dockerfile
+├── README.md
+└── .gitignore
+
+
+
+### 1. **Clone the repository**
+
+```bash
+git clone https://github.com/<your-username>/multi_modal_memory_chatbot.git
+cd multi_modal_memory_chatbot
+```
+
+2. Create a virtual environment
+   python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+
+3. Install dependencies
+   pip install -r requirements.txt
+
+4. Set up environment variables
+   OPENAI_API_KEY=your_api_key_here
+
+5. Run the application
+   streamlit run app.py
 
